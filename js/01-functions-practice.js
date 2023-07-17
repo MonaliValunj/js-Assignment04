@@ -23,8 +23,21 @@
 // percentOf(2,8);
 
 //STEP 4
-function findModulus(x, y) {
+// function findModulus(x, y) {
+//     let mod = x % y;
+//     console .log (mod + " is the modulus of "+ x + " and " + y);
+// }
+// findModulus(6, 2);
 
-}
 
 //STEP 5
+function sum(n) {
+    let additon = 0;
+    for (let i = 0; i < arguments.length; i++) {
+        additon += Number(arguments[i]);;
+    }
+    console.log("additon: "+additon);   // addition is showing NaN
+    }                                   //After trying lots of different ways could not solve this :(
+let numbers = window.prompt("Enter Numbers:");
+sum(numbers);
+
