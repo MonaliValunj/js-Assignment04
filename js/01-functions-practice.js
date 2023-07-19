@@ -30,14 +30,15 @@
 // findModulus(6, 2);
 
 
-//STEP 5
-// function sum(n) {
+// STEP 5
+// function sum(n1,n2,n3,n4,n5,n6) {
 //     let additon = 0;
 //     for (let i = 0; i < arguments.length; i++) {
-//         additon += Number(arguments[i]);;
+//         additon += parseInt(arguments[i]);
 //     }
-//     console.log("additon: "+additon);   // addition is showing NaN
+//     console.log("additon: "+ additon);   // addition is showing NaN
 //     }                                   //After trying lots of different ways could not solve this :(
 // let numbers = window.prompt("Enter Numbers:");
+// console.log(numbers);
 // sum(numbers);
 
