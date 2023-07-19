@@ -1,5 +1,5 @@
 uc = window.prompt("Enter your choice; (rock/paper/scissor) ");
-    console.log("user choice: "+ uc);
+    document.write("user choice: "+ uc + "<br>");
     if( uc !== "rock" && uc !== "paper" && uc !== "scissor"){
         window.alert("Please Enter valid input")
     }
@@ -14,7 +14,7 @@ uc = window.prompt("Enter your choice; (rock/paper/scissor) ");
     }else if(cc === 2){
         computerChoice = "scissor";
     }
-    console.log("computerChoice : "+ computerChoice)
+    document.write(" computer Choice : "+ computerChoice);
 
     if(uc === "rock" && computerChoice === "scissor"){
         window.alert("You won!!");

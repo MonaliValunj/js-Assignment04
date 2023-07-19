@@ -31,13 +31,13 @@
 
 
 //STEP 5
-function sum(n) {
-    let additon = 0;
-    for (let i = 0; i < arguments.length; i++) {
-        additon += Number(arguments[i]);;
-    }
-    console.log("additon: "+additon);   // addition is showing NaN
-    }                                   //After trying lots of different ways could not solve this :(
-let numbers = window.prompt("Enter Numbers:");
-sum(numbers);
+// function sum(n) {
+//     let additon = 0;
+//     for (let i = 0; i < arguments.length; i++) {
+//         additon += Number(arguments[i]);;
+//     }
+//     console.log("additon: "+additon);   // addition is showing NaN
+//     }                                   //After trying lots of different ways could not solve this :(
+// let numbers = window.prompt("Enter Numbers:");
+// sum(numbers);
 
